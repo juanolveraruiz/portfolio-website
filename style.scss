@@ -22,9 +22,9 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    color: #000;
+
     @media (min-width:1440px) {
-        padding-inline: calc(110vh - 1440px); ;
+        padding-inline: calc(110vw - 1440px); ;
     }
     &-content {
         width: 80%;
@@ -36,7 +36,7 @@ body {
         padding: 20px;
 
         &__description {
-            font-size: clamp(1.5rem, 5vh, rem);
+            font-size: clamp(1.5rem, 5vw, 4rem);
         }
 
         &__btn {
@@ -86,7 +86,6 @@ nav {
             & a {
                 font-size: 4rem;
                 text-decoration: none;
-                color: #eee;
                 font-weight: bold;
                 position: relative;
                 display: block;
